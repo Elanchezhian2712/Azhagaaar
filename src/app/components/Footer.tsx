@@ -208,13 +208,13 @@ const Footer = () => {
                 <Image
                   src="/Images/logo-elantech.png"
                   alt="Logo Text"
-                  width={220}
+                  width={281}
                   height={50}
                 />
               </Link>
             </div>
             <p className="text-sm sm:text-base text-white/70 leading-relaxed text-justify">
-              Elan Tech Solutions transforms ideas into impactful digital
+              Azhagaaar transforms ideas into impactful digital
               experiences from AI-powered applications to scalable web
               platforms. We help businesses thrive with intuitive design, DevOps
               automation, and cutting-edge technology.
@@ -230,7 +230,6 @@ const Footer = () => {
                     { href: "/about", label: "About us" },
                     { href: "/products", label: "Product" },
                     { href: "/services", label: "Services" },
-                    { href: "/careers", label: "Careers" },
                     { href: "/contact", label: "Contact us" },
                   ].map(({ href, label }) => (
                     <li key={href}>
@@ -258,15 +257,15 @@ const Footer = () => {
                 },
                 {
                   title: "Our Hotline",
-                  text: "+91 978 938 2712",
+                  text: "+91 90809 41127",
                   icon: <PhoneIcon />,
-                  href: "https://wa.me/919789382712?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services.",
+                  href: "https://wa.me/919080941127?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services.",
                 },
                 {
                   title: "Mail Us",
-                  text: "elanchezhian2712.m@gmail.com",
+                  text: "azhagaaar@gmail.com",
                   icon: <PaperAirplaneIcon />,
-                  href: "mailto:elanchezhian2712.m@gmail.com",
+                  href: "mailto:azhagaaar@gmail.com",
                 },
               ].map(({ title, text, icon, href }, index) => (
                 <a
@@ -303,7 +302,7 @@ const Footer = () => {
           className={`border-t ${borderStyle} mt-1 sm:mt-2 py-6 flex flex-col sm:flex-row justify-between items-center text-xs sm:text-sm text-white/60 ${horizontalPadding}`}
         >
           <p className="mb-4 sm:mb-0 text-center sm:text-left">
-            © {new Date().getFullYear()} Elan Tech Solutions. All rights reserved.
+            © {new Date().getFullYear()} Azhagaaar. All rights reserved.
           </p>
           <div className="flex gap-4">
             <a href="#" aria-label="Instagram" className="hover:text-purple-500 transition-colors">

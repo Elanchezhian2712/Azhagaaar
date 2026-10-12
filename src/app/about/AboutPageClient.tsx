@@ -145,7 +145,7 @@ const AboutPageClient = () => {
               </ol>
             </nav>
             <p className="relative z-10 mt-6 sm:mt-8 text-base sm:text-lg md:text-xl text-neutral-300/90 leading-relaxed max-w-3xl mx-auto">
-              At ElanTech, we don&apos;t just build software. We craft smarter digital futures through a blend of creativity, innovation, and advanced AI. Our team designs intuitive interfaces and scalable systems that help businesses transform bold ideas into intelligent and impactful digital solutions.
+              At Azhagaaar, we don&apos;t just build software. We craft smarter digital futures through a blend of creativity, innovation, and advanced AI. Our team designs intuitive interfaces and scalable systems that help businesses transform bold ideas into intelligent and impactful digital solutions.
             </p>
           </div>
         </FadeInContainer>
@@ -159,7 +159,7 @@ const AboutPageClient = () => {
                 <div className="order-2 md:order-1">
                   <div className="aspect-[16/9] rounded-xl overflow-hidden shadow-2xl relative border border-neutral-800/50 hover:border-purple-600/50 transition-colors duration-300">
                     {!imageLoaded[MISSION_VISION_IMG_INDEX] && <div className="absolute inset-0 bg-neutral-800/70 animate-pulse" />}
-                    <Image src="/Images/mission-vision.jpg" alt="ElanTech Mission and Vision" fill sizes="(max-width: 768px) 100vw, 50vw" style={{ objectFit: 'cover' }} quality={80} priority className={`transition-opacity duration-500 ease-in-out group-hover:scale-105 ${imageLoaded[MISSION_VISION_IMG_INDEX] ? 'opacity-100' : 'opacity-0'}`} onLoad={() => handleImageLoad(MISSION_VISION_IMG_INDEX)} />
+                    <Image src="/Images/mission-vision.jpg" alt="Azhagaaar Mission and Vision" fill sizes="(max-width: 768px) 100vw, 50vw" style={{ objectFit: 'cover' }} quality={80} priority className={`transition-opacity duration-500 ease-in-out group-hover:scale-105 ${imageLoaded[MISSION_VISION_IMG_INDEX] ? 'opacity-100' : 'opacity-0'}`} onLoad={() => handleImageLoad(MISSION_VISION_IMG_INDEX)} />
                   </div>
                 </div>
                 <div className="order-1 md:order-2 text-center md:text-left">
@@ -178,17 +178,17 @@ const AboutPageClient = () => {
             <div className="container mx-auto">
               <div className="flex flex-col md:flex-row items-center gap-10 lg:gap-16 xl:gap-20">
                 <div className="md:w-2/5 text-center md:text-left">
-                  <h2 className="text-4xl md:text-5xl font-bold text-neutral-100 my-3 sm:my-4">Life at ElanTech</h2>
+                  <h2 className="text-4xl md:text-5xl font-bold text-neutral-100 my-3 sm:my-4">Life at Azhagaaar</h2>
                   <p className="text-purple-500/80 text-sm uppercase tracking-wider mb-6">Innovate. Collaborate. Grow.</p>
                   <p className="text-neutral-300/80 leading-relaxed text-justify mb-8 sm:mb-10 text-base sm:text-lg">Discover the vibrant culture, collaborative spirit, and exciting opportunities that define working with us. We foster an environment where innovation thrives and every individual can make an impact.</p>
-                  <Link href="/careers" className="mt-4 inline-block bg-gradient-to-r from-purple-500 to-indigo-600 text-white font-medium px-5 py-2 rounded-full shadow-lg hover:scale-105 transition-transform duration-300">VIEW JOB OPENINGS</Link>
+                  <Link href="/contact" className="mt-4 inline-block bg-gradient-to-r from-purple-500 to-indigo-600 text-white font-medium px-5 py-2 rounded-full shadow-lg hover:scale-105 transition-transform duration-300">GET IN TOUCH</Link>
                 </div>
                 <div className="md:w-3/5 w-full">
                   <div className="grid grid-cols-2 grid-rows-auto gap-4 h-auto md:h-[36rem] lg:h-[30rem]">
                     {companyLifeImages.map((src, index) => (
                       <div key={index} className={`relative rounded-lg overflow-hidden ${index === 2 ? 'col-span-2 row-span-1 h-64 md:h-full' : 'col-span-1 row-span-1 h-48 md:h-full'}`}>
                         {!imageLoaded[index] && (<div className="absolute inset-0 bg-neutral-800 animate-pulse" />)}
-                        <Image src={src} alt={`Life at ElanTech - Image ${index + 1}`} loading={index === 0 ? undefined : "lazy"} width={700} height={500} quality={75} priority={index === 0} className={`w-full h-full object-cover rounded-lg grayscale transition-opacity duration-500 ${imageLoaded[index] ? 'opacity-100' : 'opacity-0'}`} onLoad={() => handleImageLoad(index)} />
+                        <Image src={src} alt={`Life at Azhagaaar - Image ${index + 1}`} loading={index === 0 ? undefined : "lazy"} width={700} height={500} quality={75} priority={index === 0} className={`w-full h-full object-cover rounded-lg grayscale transition-opacity duration-500 ${imageLoaded[index] ? 'opacity-100' : 'opacity-0'}`} onLoad={() => handleImageLoad(index)} />
                       </div>
                     ))}
                   </div>
@@ -209,14 +209,6 @@ const AboutPageClient = () => {
                 <p className="mt-6 text-lg text-neutral-400">
                   Our diverse and dynamic team drives innovation. We unite global talent to deliver excellence and build future-ready solutions.
                 </p>
-                <div className="mt-10 flex justify-center">
-                  <Link
-                    href="/careers"
-                    className="inline-block rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 px-8 py-3 text-base font-semibold text-white shadow-lg transition-transform duration-300 hover:scale-105"
-                  >
-                    Join Our Team
-                  </Link>
-                </div>
               </div>
             </FadeInContainer>
             <FadeIn>

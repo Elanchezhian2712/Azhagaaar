@@ -3,21 +3,21 @@ import ContactPageClient from './ContactPageClient';
 
 
 export const metadata: Metadata = {
-    title: 'Contact Us | ElanTech Solutions',
- description: "Elan Tech Solutions specializes in custom software, AI integrations, and scalable web platforms, tailored to drive business success.",
-    keywords: ['ElanTech Solutions', 'Technology', 'Contact Us', 'Software Development'],
-    authors: [{ name: 'ElanTech Solutions', url: 'https://elantechsolutions.vercel.app' }],
+    title: 'Contact Us | Azhagaaar',
+ description: "Azhagaaar specializes in custom software, AI integrations, and scalable web platforms, tailored to drive business success.",
+    keywords: ['Azhagaaar', 'Technology', 'Contact Us', 'Software Development'],
+    authors: [{ name: 'Azhagaaar', url: 'https://elantechsolutions.vercel.app' }],
     openGraph: {
-        title: 'Contact Us | ElanTech Solutions',
-     description: "Elan Tech Solutions specializes in custom software, AI integrations, and scalable web platforms, tailored to drive business success.",
+        title: 'Contact Us | Azhagaaar',
+     description: "Azhagaaar specializes in custom software, AI integrations, and scalable web platforms, tailored to drive business success.",
         url: 'https://elantechsolutions.vercel.app/about', 
-        siteName: 'ElanTech Solutions',
+        siteName: 'Azhagaaar',
         images: [
             {
                 url: '/logo.png', 
                 width: 1200,      
                 height: 630,      
-                alt: 'ElanTech Solutions Logo', 
+                alt: 'Azhagaaar Logo', 
             },
         ],
         locale: 'en_US',
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Contact Us | ElanTech Solutions',
-     description: "Elan Tech Solutions specializes in custom software, AI integrations, and scalable web platforms, tailored to drive business success.",
+        title: 'Contact Us | Azhagaaar',
+     description: "Azhagaaar specializes in custom software, AI integrations, and scalable web platforms, tailored to drive business success.",
         images: ['/logo.png'], 
         creator: '@elantech',
     },

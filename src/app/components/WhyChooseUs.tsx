@@ -36,7 +36,7 @@ export const WhyChooseUs = () => (
         Our Advantage
       </span>
       <h2 className="text-4xl sm:text-5xl font-bold text-white my-4 leading-tight">
-        Why Partner with ElanTech Solutions?
+        Why Partner with Azhagaaar?
       </h2>
       <p className="text-gray-400 text-lg mb-16 leading-relaxed">
         Overcome manual bottlenecks, slow scaling, and fragmented systems. Our bespoke AI

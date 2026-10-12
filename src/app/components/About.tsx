@@ -146,7 +146,7 @@ export const About = () => {
             <p className="text-gray-300 text-lg mb-6 leading-relaxed">
               At{" "}
               <span className="font-semibold text-purple-400">
-                ElanTech Solutions
+                Azhagaaar
               </span>
               , we fuse deep AI expertise with strategic business insight. We
               empower organizations to transcend traditional limitations,

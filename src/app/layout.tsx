@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elan Tech Solutions",
-  description: "Elan Tech Solutions specializes in custom software, AI integrations, and scalable web platforms, tailored to drive business success."
+  title: "Azhagaaar",
+  description: "Azhagaaar specializes in custom software, AI integrations, and scalable web platforms, tailored to drive business success."
 };
 
 export default function RootLayout({

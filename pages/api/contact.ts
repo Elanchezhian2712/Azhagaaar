@@ -26,7 +26,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   const mailOptions = {
     from: process.env.SMTP_FROM_EMAIL, 
     to: process.env.EMAIL_RECIPIENT,   
-    subject: `From ElanTech Solutions: ${subject}`,
+    subject: `From Azhagaaar: ${subject}`,
     text: `
       Name: ${name}
       Email: ${email}
@@ -38,7 +38,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       ${message}
     `,
     html: `
-      <h1>New Enquiry From ElanTech Solutions</h1>
+      <h1>New Enquiry From Azhagaaar</h1>
       <p><strong>Name:</strong> ${name}</p>
       <p><strong>Email:</strong> ${email}</p>
       <p><strong>Company:</strong> ${company || 'N/A'}</p>

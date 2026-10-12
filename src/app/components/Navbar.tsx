@@ -12,7 +12,6 @@ const allNavItems = [
   { href: '/about', label: 'ABOUT US' },
   { href: '/products', label: 'PRODUCTS' },
   { href: '/services', label: 'SERVICES' },
-  { href: '/careers', label: 'CAREERS' },
   { href: '/contact', label: 'CONTACT' },
 ];
 
@@ -74,15 +73,15 @@ const Navbar = () => {
           <Link href="/" className="flex items-center justify-center shrink-0 mx-2 sm:mx-3">
             <Image
               src="/Images/logo.png"
-              alt="ElanTech Icon"
+              alt="Azhagaaar Icon"
               width={32}
               height={32}
               className="w-8 h-8"
             />
            <Image
               src="/Images/logo-elantech.png"
-              alt="ElanTech Solutions"
-              width={150}
+              alt="Azhagaaar"
+              width={225}
               height={40}
               className="hidden lg:block ml-2 h-6 w-auto"
             />
