@@ -202,6 +202,7 @@ const Footer = () => {
                   alt="Logo"
                   width={40}
                   height={40}
+                  className="w-10 h-10"
                 />
               </Link>
               <Link href="/" className="flex-shrink-0">
@@ -210,6 +211,7 @@ const Footer = () => {
                   alt="Logo Text"
                   width={281}
                   height={50}
+                  className="w-auto h-[50px]"
                 />
               </Link>
             </div>
