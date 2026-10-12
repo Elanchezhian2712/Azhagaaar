@@ -35,7 +35,6 @@ interface ContactPageClientProps {
   formIntroText?: string;
   contactPoints?: ContactPoint[];
   officeAddress?: string;
-  googleMapsLink?: string;
   socialLinks?: SocialLink[];
 }
 
@@ -55,8 +54,7 @@ const ContactPageClient = ({
   heroParagraph = "Have a project in mind, a question about our AI services, or just want to connect with our team of innovators? We're here to listen and explore how we can help you achieve your goals. Reach out, and let's start the conversation.",
   formIntroText = "Fill out the form below, and one of our AI specialists will get back to you shortly.",
   contactPoints = mockContactPoints,
-  officeAddress = "Salem, Tamil Nadu, India, 636002",
-  googleMapsLink = "https://www.google.com/maps?q=J4RV+2VV,+5,+Trichy+Branch+Rd,+Valluvar+Nagar,+Annathanapatti,+Police+Quarters,+Salem,+Tamil+Nadu+636002",
+  officeAddress = "Salem, Tamil Nadu, India",
   socialLinks = mockSocialLinks,
 }: ContactPageClientProps) => {
   const sectionBorderStyle = "border-neutral-800/70";
@@ -202,31 +200,6 @@ const ContactPageClient = ({
                                 </span>
                               ))}
                             </address>
-
-                            {googleMapsLink && (
-                              <a
-                                href={googleMapsLink}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="mt-2 inline-flex items-center text-sm text-purple-500 hover:text-purple-300 transition-colors duration-300"
-                              >
-                                View on Map
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  fill="none"
-                                  viewBox="0 0 24 24"
-                                  strokeWidth={2}
-                                  stroke="currentColor"
-                                  className="w-4 h-4 ml-1.5"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                                  />
-                                </svg>
-                              </a>
-                            )}
                           </div>
                         </div>
                       </div>
